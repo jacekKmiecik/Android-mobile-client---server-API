@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AndroidClient!</string>
+    <string name="app_name">Android Client</string>
+    <string name="options">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="locationUpdatesTitle">Upload location</string>
+    <string name="locationUpdatesSummary">Automatically upload coordinates to server</string>
+    <string name="settings_title">Settings</string>
+    <string name="geolocation_submenu_title">Geolocation settings</string>
+    <string name="geolocationModesTitle">Geolocation mode</string>
+    <string name="geolocationModesDialogTitle">Choose the geolocation mode:</string>
+    <string name="geolocationModesDefaultValue">NETWORKANDGPS</string>
+    <string name="server_parameters_submenu_title">Server configuration</string>
+    <string name="port_number_edittext_title">Port number</string>
+    <string name="port_number_edittext_summary">Port used for communication with the server</string>
+    <string name="port_number_edittext_dialog">Set the port number</string>
+    <string name="server_ip_eddittext_title">Server\'s IP address</string>
+    <string name="server_ip_edittext_dialog">Set the server IP</string>
+    <string name="info_unavailable">(unavailable)</string>
+    <string name="changeOrderStatusDialogTitle">Choose the new order status:</string>
+    <string name="unavailable">(unavailable)</string>
+</resources>

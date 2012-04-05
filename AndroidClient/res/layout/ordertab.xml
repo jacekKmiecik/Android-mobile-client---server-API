@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/widget30"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+	<ScrollView android:id="@+id/widget54" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<LinearLayout android:id="@+id/widget309"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:orientation="vertical">
+			<TextView android:id="@+id/widget31" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginTop="10sp"
+				android:text="Current order ID: ">
+			</TextView>
+			<TextView android:id="@+id/currentOrderNumberTextView"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="No active order" android:textSize="18sp" android:textStyle="bold">
+			</TextView>
+			<Button android:id="@+id/changeOrderStatusButton"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginTop="10sp" android:layout_marginBottom="5sp"
+				android:text="Change order status" android:textStyle="bold">
+			</Button>
+			<TextView android:id="@+id/widget59" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Destination address:">
+			</TextView>
+			<EditText android:id="@+id/endAddressEditText"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:text="@string/info_unavailable" android:textSize="18sp" android:editable="false">
+			</EditText>
+			<TextView android:id="@+id/widget59" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginLeft="5sp"
+				android:text="Starting address:">
+			</TextView>
+			<EditText android:id="@+id/startAddressEditText"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:text="@string/info_unavailable" android:textSize="18sp" android:editable="false">
+			</EditText>
+			<TextView android:id="@+id/widget63" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Order status:">
+			</TextView>
+			<EditText android:id="@+id/orderStatusEditText"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:text="@string/info_unavailable" android:textSize="18sp" android:editable="false">
+			</EditText>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

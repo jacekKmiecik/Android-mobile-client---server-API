@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/widget301" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout android:id="@+id/widget30"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="vertical">
+		<TextView android:id="@+id/widget47" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Geolocation information:">
+		</TextView>
+		<TableLayout android:id="@+id/widget48"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:orientation="vertical">
+			<TableRow android:id="@+id/widget50" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_marginTop="5sp"
+				android:orientation="horizontal">
+				<TextView android:id="@+id/widget51" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="Longitude: ">
+				</TextView>
+				<EditText android:id="@+id/longitudeEditText"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="n/a" android:editable="false">
+				</EditText>
+			</TableRow>
+			<TableRow android:id="@+id/widget53" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_marginTop="5sp"
+				android:orientation="horizontal">
+				<TextView android:id="@+id/widget54" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="Latitude: ">
+				</TextView>
+				<EditText android:id="@+id/latitudeEditText"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="n/a" android:editable="false">
+				</EditText>
+			</TableRow>
+			<TableRow android:id="@+id/widget56" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_marginTop="5sp"
+				android:orientation="horizontal">
+				<TextView android:id="@+id/widget57" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="Updated on: ">
+				</TextView>
+				<EditText android:id="@+id/updatedOnEditText"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="n/a" android:editable="false">
+				</EditText>
+			</TableRow>
+		</TableLayout>
+		 
+	</LinearLayout>
+</ScrollView>

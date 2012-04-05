@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/Opcje"
+          android:title="@string/options" />
+    <item android:id="@+id/Wyloguj"
+          android:title="@string/logout" />
+</menu>

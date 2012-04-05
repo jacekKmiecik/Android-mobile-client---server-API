@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/widget879077"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+	<ScrollView android:id="@+id/widget7865"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<LinearLayout android:id="@+id/widget39"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+			<TextView android:id="@+id/widget31" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Username:">
+			</TextView>
+			<EditText android:id="@+id/loginEditText"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:textSize="18sp">
+			</EditText>
+			<TextView android:id="@+id/widget34" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Password:">
+			</TextView>
+			<EditText android:id="@+id/passwordEditText"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:textSize="18sp" android:password="true">
+			</EditText>
+			<Button android:id="@+id/loginButton" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:layout_marginTop="10px"
+				android:layout_marginBottom="10px" android:text="Log in"
+				android:layout_gravity="center_horizontal">
+			</Button>
+			<TableLayout android:id="@+id/widget65"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:orientation="vertical" android:stretchColumns="1">
+				<TableRow android:id="@+id/idVehicleTableRow" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:orientation="horizontal"
+					android:paddingTop="2sp" android:paddingBottom="2sp">
+					<TextView android:id="@+id/idVehicleLabel" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="Vehicle ID:"
+						android:layout_column="1">
+					</TextView>
+					<TextView android:id="@+id/idVehicleTextView"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="" android:gravity="right">
+					</TextView>
+				</TableRow>
+				<TableRow android:id="@+id/licensePlateTableRow" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:orientation="horizontal"
+					android:paddingTop="2sp" android:paddingBottom="2sp">
+					<TextView android:id="@+id/licensePlateLabel" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="License plates:"
+						android:layout_column="1">
+					</TextView>
+					<TextView android:id="@+id/licensePlateTextView"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="" android:gravity="right">
+					</TextView>
+				</TableRow>
+				<TableRow android:id="@+id/brandTableRow" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:orientation="horizontal"
+					android:paddingTop="2sp" android:paddingBottom="2sp">
+					<TextView android:id="@+id/brandLabel" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="Vehicle model:"
+						android:layout_column="1">
+					</TextView>
+					<TextView android:id="@+id/brandTextView"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="" android:gravity="right">
+					</TextView>
+				</TableRow>				
+				<TableRow android:id="@+id/widget67" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:orientation="horizontal"
+					android:paddingTop="2sp" android:paddingBottom="2sp">
+					<TextView android:id="@+id/widget40" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="Ping:"
+						android:layout_column="1">
+					</TextView>
+					<TextView android:id="@+id/pingTextView"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="n/a" android:gravity="right">
+					</TextView>
+				</TableRow>
+			</TableLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

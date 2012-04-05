@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<!-- ustawienia geolokalizacji -->
+	<PreferenceCategory
+		android:title="@string/geolocation_submenu_title">
+	
+		<CheckBoxPreference
+		android:key="locationUpdates"
+		android:title="@string/locationUpdatesTitle"
+		android:summary="@string/locationUpdatesSummary"/>
+		
+		<ListPreference
+        android:key="geolocationModes"
+        android:defaultValue="@string/geolocationModesDefaultValue"
+        android:title="@string/geolocationModesTitle"       
+        android:entries="@array/geolocationModesEntries"
+        android:entryValues="@array/geolocationModesEntryValues"
+        android:dialogTitle="@string/geolocationModesDialogTitle" />
+		
+	</PreferenceCategory>
+	
+	<!-- ustawienia połączenia z serwerem -->
+	<PreferenceCategory
+		android:title="@string/server_parameters_submenu_title">            
+        
+        <EditTextPreference
+        android:key="serverIp"
+        android:title="@string/server_ip_eddittext_title"
+        android:dialogTitle="@string/server_ip_edittext_dialog" />
+		
+	</PreferenceCategory>
+</PreferenceScreen> 

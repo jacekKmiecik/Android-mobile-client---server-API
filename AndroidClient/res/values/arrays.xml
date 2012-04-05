@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Available modes of geolocation (WiFi/GPS etc.) -->
+	<string-array name="geolocationModesEntries">
+		<item>Just network</item>
+		<item>Just GPS</item>
+		<item>Network and GPS</item>
+	</string-array>
+
+	<string-array name="geolocationModesEntryValues">
+		<item>NETWORK</item>
+		<item>GPS</item>
+		<item>NETWORKANDGPS</item>
+	</string-array>
+
+	<string-array name="changeOrderStatusDialogValues">
+		<item>In progress</item>
+		<item>Reject</item>
+		<item>Completed</item>
+	</string-array>
+	
+</resources>
