@@ -1,0 +1,9 @@
+The Android app and the server API are part of my BSc thesis project submitted in December 2011. The two modules are a meant to be used for a vehicle fleet management system. This code was written entirely be me during my last semester of bachelor Computer Science studies at the Gdańsk University of Technology. Please note that I only had three months during a busy semester to complete this project, so it might have some minor flaws.
+
+Contents description:
+- AndroidClient - folder containing the native Android app (for fleet's drivers), it's a project in Eclipse IDE
+- client screenshots - here you can find some screenshots of the app (ran in the emulator)
+- server API - web services written in PHP for interaction between the app and the server
+- client class model.png - an UML class diagram of the Android app
+
+If you have any questions or would like to re-use my code, feel free to contact me.
